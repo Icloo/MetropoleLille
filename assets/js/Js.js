@@ -12,9 +12,9 @@
 
 let restau = document.getElementById('afficherrestau');
 
-    const url = 'https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=ensemble-des-lieux-de-restauration-des-crous&q=&rows=20&facet=type&facet=zone';
+    const api = 'https://opendata.lillemetropole.fr/api/records/1.0/search/?dataset=ensemble-des-lieux-de-restauration-des-crous&q=&rows=20&facet=type&facet=zone';
 
-    fetch(url)
+    fetch(api)
         .then((tropbienleJS) => tropbienleJS.json())
         .then((tropbienleJS) => {
             const lieux = tropbienleJS.records;
