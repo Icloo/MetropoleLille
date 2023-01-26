@@ -39,5 +39,4 @@ restau.onclick = function(event) {
 }
 
 console.log(localStorage);
-
 afficherfavoris();
