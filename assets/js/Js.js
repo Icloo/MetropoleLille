@@ -68,8 +68,7 @@ let restau = document.getElementById('afficherrestau');
                 /////////////////////////////////::
                 restau.onclick = function(event) {
                     let target = event.target;
-       
-                
+      
                     if (target.id == "croixfermer") {
                         target.parentElement.parentElement.remove();
                     } else if (target.id == "boutonenregistrer") {
