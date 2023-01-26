@@ -9,7 +9,7 @@ function afficherfavoris() {
     restau.innerHTML += `
     <div id="restaufav">
         <div class="emplacementphoto">
-            <img src="../Starter kit/assets/image/photorestau.jpg" class="photo">
+            <img src="assets/image/photorestau.jpg" class="photo">
         </div>
 
         <div class="desc">
@@ -21,12 +21,11 @@ function afficherfavoris() {
 
         </div>
         <div class="fermer">
-            <img src="../Starter kit/assets/image/Vector (4).png" id="croixfermer">
+            <img src="assets/image/Vector (4).png" id="croixfermer">
         </div>
         
     </div>
     `;
-
  }
 }
 
